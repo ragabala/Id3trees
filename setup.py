@@ -6,12 +6,13 @@ with open('README.md') as f:
 requirements = ['numpy', 'pandas']
 
 setup(
-    name='id3trees',
+    name='id3tree',
     description='This is used for creating multi-split entropy based ID3Trees.',
     long_description=long_description,
     url='https://github.com/ragabala/Id3trees',
     author='Ragavendran balakrishnan',
-    version='0.0.1',
+    version='0.0.4',
+    packages=find_packages(),
     author_email='ragavendranb92@gmail.com',
     license='TEST',
     install_requires=requirements,
