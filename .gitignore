@@ -1,0 +1,6 @@
+Id3trees.egg-info/
+dist/
+dist/*
+build/
+build/*
+.idea/
